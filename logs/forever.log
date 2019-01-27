@@ -1,108 +1,85 @@
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
-in POST /lot_info
-ReferenceError: total_spaces_avail is not defined
-    at app.post (/home/ubuntu/cuHackit-19parking/index.js:28:25)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
-    at /home/ubuntu/node_modules/body-parser/lib/read.js:130:5
-    at invokeCallback (/home/ubuntu/node_modules/raw-body/index.js:224:16)
-in POST /lot_info
-ReferenceError: total_spaces_avail is not defined
-    at app.post (/home/ubuntu/cuHackit-19parking/index.js:28:25)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
-    at /home/ubuntu/node_modules/body-parser/lib/read.js:130:5
-    at invokeCallback (/home/ubuntu/node_modules/raw-body/index.js:224:16)
+in GET /lot_space
+problem with the lot_space fields
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #1
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
-in POST /lot_info
-The calculation is -5
-/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
-        throw err; // Rethrow non-MySQL errors
-        ^
-
-Error: ER_NO_DB_ERROR: No database selected
-    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
-    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
-    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
-    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
-    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
-    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
-    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
-    at Socket.emit (events.js:197:13)
-    at addChunk (_stream_readable.js:288:12)
-    at readableAddChunk (_stream_readable.js:269:11)
-    --------------------
-    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
-    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
-    at app.post (/home/ubuntu/cuHackit-19parking/index.js:36:6)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
-error: Forever detected script exited with code: 1
+in GET /lot_space
+problem with the lot_space fields
+error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #2
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
 error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #3
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
-in POST /lot_info
-The calculation is -5
-/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
-        throw err; // Rethrow non-MySQL errors
-        ^
-
-Error: ER_NO_DB_ERROR: No database selected
-    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
-    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
-    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
-    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
-    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
-    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
-    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
-    at Socket.emit (events.js:197:13)
-    at addChunk (_stream_readable.js:288:12)
-    at readableAddChunk (_stream_readable.js:269:11)
-    --------------------
-    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
-    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
-    at app.post (/home/ubuntu/cuHackit-19parking/index.js:36:6)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
-    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
-    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
-error: Forever detected script exited with code: 1
+error: Forever detected script was killed by signal: SIGKILL
 error: Script restart attempt #4
-Prog 5 listening on port 3000!
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #5
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #6
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #7
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #8
+Listening on port 3000!
 Connected!
 in POST /lot_info
-The calculation is -5
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #9
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
 /home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
         throw err; // Rethrow non-MySQL errors
         ^
 
-Error: ER_NO_DB_ERROR: No database selected
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
     at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
     at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
     at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
@@ -116,7 +93,7 @@ Error: ER_NO_DB_ERROR: No database selected
     --------------------
     at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
     at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
-    at app.post (/home/ubuntu/cuHackit-19parking/index.js:36:6)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
     at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
     at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
     at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
@@ -125,6 +102,418 @@ Error: ER_NO_DB_ERROR: No database selected
     at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
     at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
 error: Forever detected script exited with code: 1
-error: Script restart attempt #5
-Prog 5 listening on port 3000!
+error: Script restart attempt #10
+Listening on port 3000!
 Connected!
+in POST /lot_info
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #11
+Listening on port 3000!
+Connected!
+in POST /lot_info
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #12
+Listening on port 3000!
+Connected!
+in POST /lot_info
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #13
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #14
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with 2 spaces.
+in POST /lot_info
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #15
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #16
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with 2 spaces.
+in POST /lot_info
+About to query the sql!
+Error in the sql?
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #17
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'TotalSpaces' of undefined
+    at Query.<anonymous> (/home/ubuntu/cuHackit-19parking/index.js:45:67)
+    at Query.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/ubuntu/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #18
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'TotalSpaces' of undefined
+    at Query.<anonymous> (/home/ubuntu/cuHackit-19parking/index.js:45:67)
+    at Query.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Query._callback (/home/ubuntu/node_modules/mysql/lib/Connection.js:468:16)
+    at Query.Sequence.end (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #19
+Listening on port 3000!
+Connected!
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #20
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+About to query the sql!
+Error in the sql?
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #21
+Listening on port 3000!
+Connected!
+in POST /lot_info
+About to query the sql!
+Error in the sql?
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #22
+Listening on port 3000!
+Connected!
+in POST /lot_info
+input lot_id is: 4
+input num_cars is: 6
+About to query the sql!
+Error in the sql?
+/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_NULL_ERROR: Column 'Total_Spaces_Avail' cannot be null
+    at Query.Sequence._packetToError (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ubuntu/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ubuntu/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ubuntu/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Protocol._enqueue (/home/ubuntu/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/ubuntu/node_modules/mysql/lib/Connection.js:200:25)
+    at app.post (/home/ubuntu/cuHackit-19parking/index.js:39:6)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node_modules/express/lib/router/index.js:275:10)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #23
+Listening on port 3000!
+Connected!
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 6
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 24
+About to query the sql!
+Lot 1 Record found with spaces.
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with -18 spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 24
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 2
+input num_cars is: 31
+About to query the sql!
+Lot 2 Record found with spaces.
+in GET /lot_space
+The lot id is 2
+Lot 2 Record found with -11 spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 24
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 2
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 3
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 3
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 3
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+input lot_id is: 1
+input num_cars is: 3
+About to query the sql!
+Lot 1 Record found with spaces.
+SyntaxError: Unexpected token } in JSON at position 15
+    at JSON.parse (<anonymous>)
+    at parse (/home/ubuntu/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/ubuntu/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/ubuntu/node_modules/raw-body/index.js:224:16)
+    at done (/home/ubuntu/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ubuntu/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:197:13)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+in GET /lot_space
+The lot id is 2
+Lot 2 Record found with -11 spaces.
+in GET /lot_space
+The lot id is 2
+Lot 2 Record found with -11 spaces.

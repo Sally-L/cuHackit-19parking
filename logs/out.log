@@ -1,20 +1,128 @@
-Prog 5 listening on port 3000!
+Listening on port 3000!
+Connected!
+in GET /lot_space
+problem with the lot_space fields
+Listening on port 3000!
+Connected!
+in GET /lot_space
+problem with the lot_space fields
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+in POST /lot_info
+problem with the lot_info fields
+Listening on port 3000!
 Connected!
 in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
 in POST /lot_info
-Prog 5 listening on port 3000!
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Lot 1 Record found with undefined spaces.
+in POST /lot_info
+Listening on port 3000!
 Connected!
 in POST /lot_info
-The calculation is -5
-Prog 5 listening on port 3000!
-Connected!
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
 in POST /lot_info
-The calculation is -5
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
 in POST /lot_info
-The calculation is -5
-Prog 5 listening on port 3000!
+Listening on port 3000!
 Connected!
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with 2 spaces.
+in POST /lot_info
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+in GET /lot_space
+The lot id is 1
+Lot 1 Record found with 2 spaces.
+in POST /lot_info
+About to query the sql!
+Error in the sql?
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+Listening on port 3000!
+Connected!
+Listening on port 3000!
+Connected!
+in POST /lot_info
+1undefined
+2undefined
+problem with the lot_info fields
+in POST /lot_info
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+About to query the sql!
+Lot 1 Record found with spaces.
+in POST /lot_info
+About to query the sql!
+Error in the sql?
+Listening on port 3000!
+Connected!
+in POST /lot_info
+About to query the sql!
+Error in the sql?
