@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "cuhackit"
+  password: "cuhackit",
   database: "cuhackit"
 });
 
@@ -32,31 +32,22 @@ app.post('/lot_info', (req,res)=>{
         }
 
 	// Look up the lot_id in the database
-	var sql = "SELECT TotalSpaces FROM Lots WHERE Lot_ID = " + lot_id + ";";
-	var calculation = -num_cars;
+	var sql = "INSERT INTO Lot_Records (Lot_ID, Total_Spaces_Avail, Time_Stamp) VALUES (" + lot_id + ", (SELECT TotalSpaces from Lots Where Lot_ID = " + lot_id + ") - " + num_cars + "  , NOW() );";
+	
 	con.query(sql, function (err, result) {
 		if (err) {
 			throw err;
 			return res.sendStatus(404);
 		}
 		console.log("Lot " + lot_id + " Record found with " + result.TotalSpaces + "spaces.");
-		calculation += result.TotalSpaces;
 	});
-
+	var calculation = -num_cars + result.TotalSpaces;
 	console.log("The calculation is " + calculation);
 	
 	// Insert the information into the database: Lot_ID and Total_Spaces_Avail
 	if (calculation < 0) {
 		calculation = 0;
 	}
-	var sql2 = "INSERT INTO Lot_Records (Lot_ID, Total_Spaces_Avail, Time_Stamp) VALUES (" + lot_id + ", " + calculation + ", Now());";
-	con.query(sql2, function (err, result) {
-		if (err) {
-			throw err;
-			return res.sendStatus(400);
-		}
-		console.log("1 record inserted");
-	});
 
 	return res.sendStatus(200);
 });
@@ -72,7 +63,12 @@ app.post('/lot_info', (req,res)=>{
 	}
 
 	// Look up the lot_id in the database
-	var sql = "SELECT Total_Spaces_Avail
+	var sql = "SELECT Total_Spaces_Avail FROM Lot_Records WHERE Lot_ID = " + lot_id + " ORDER BY Record_ID DESC LIMIT 1;";
+	con.query(sql, function (err, result) {
+		if (err) {
+			throw err;
+			return res.sendStatus(404);
+		}
 });*/
 
 let port = 3000;
